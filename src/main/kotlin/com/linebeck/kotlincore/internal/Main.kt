@@ -6,6 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin
 
 class Main : JavaPlugin() {
 
+    @Suppress("DEPRECATION")
     override fun onEnable() {
         logger.info(ChatColor.GREEN.toString() + "##############################")
         logger.info(ChatColor.GREEN.toString() + description.name)

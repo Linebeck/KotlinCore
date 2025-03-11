@@ -21,7 +21,7 @@ class KotlinCommand : CommandExecutor {
         )
     )
 
-    override fun onCommand(sender: CommandSender, command: Command, label: String, args: Array<out String>?): Boolean {
+    override fun onCommand(sender: CommandSender, command: Command, label: String, args: Array<out String>): Boolean {
         val kotlinVersion = KotlinVersion.CURRENT
         sender.sendMessage(kotlinVersionText(kotlinVersion.toString()))
         return true
