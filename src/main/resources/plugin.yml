@@ -1,5 +1,5 @@
 name: KotlinCore
-version: '1.0.1'
+version: '1.0.2'
 main: com.linebeck.kotlincore.internal.Main
 api-version: '1.21.4'
 authors: [ Linebeck ]
