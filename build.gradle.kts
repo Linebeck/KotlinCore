@@ -25,6 +25,7 @@ dependencies {
 
     implementation("org.jetbrains.kotlin:kotlin-stdlib:2.1.20")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
+    implementation("org.jetbrains.kotlin:kotlin-reflect:2.1.20")
 }
 
 val targetJavaVersion = 21
